@@ -11,6 +11,8 @@ workflows:
 
 jobs:
   maven_verify:
+    docker:
+      - image: circleci/openjdk:11.0.1-jdk
     steps:
       - run: mvn clean verify
 
