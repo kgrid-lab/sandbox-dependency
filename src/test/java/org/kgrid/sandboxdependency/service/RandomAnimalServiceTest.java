@@ -1,4 +1,4 @@
-package com.kgrid.sandboxdependency.service;
+package org.kgrid.sandboxdependency.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
