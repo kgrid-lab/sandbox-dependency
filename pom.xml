@@ -14,6 +14,31 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sandbox-dependency</name>
 	<description>A sample dependency for the purpose of experimenting</description>
+	<url>https://github.com/kgrid</url>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>KGrid Developer</name>
+			<email>kgrid-developers@umich.edu</email>
+			<organization>KGrid</organization>
+			<organizationUrl>http://kgrig.org</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+
+		<url>https://github.com/kgrid-lab/sandbox-dependency</url>
+		<connection>scm:git:https://github.com/kgrid-lab/sandbox-dependency.git</connection>
+		<developerConnection>scm:git:https://github.com/kgrid-lab/sandbox-dependency.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 	<properties>
 		<java.version>1.8</java.version>
