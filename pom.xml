@@ -71,30 +71,30 @@
 			<id>ci</id>
 			<build>
 				<plugins>
-<!--					<plugin>-->
-<!--						<groupId>org.apache.maven.plugins</groupId>-->
-<!--						<artifactId>maven-gpg-plugin</artifactId>-->
-<!--						<version>1.6</version>-->
-<!--						<configuration>-->
-<!--							<gpgArguments>-->
-<!--								<gpgArgument>&#45;&#45;pinentry-mode=loopback</gpgArgument>-->
-<!--							</gpgArguments>-->
-<!--						</configuration>-->
-<!--						<executions>-->
-<!--							<execution>-->
-<!--								<id>sign-artifact</id>-->
-<!--								<phase>verify</phase>-->
-<!--								<goals>-->
-<!--									<goal>sign</goal>-->
-<!--								</goals>-->
-<!--							</execution>-->
-<!--						</executions>-->
-<!--					</plugin>-->
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-gpg-plugin</artifactId>
+						<version>1.6</version>
+						<configuration>
+							<gpgArguments>
+								<gpgArgument>--pinentry-mode=loopback</gpgArgument>
+							</gpgArguments>
+						</configuration>
+						<executions>
+							<execution>
+								<id>sign-artifact</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>sign</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
 					<plugin>
 						<groupId>org.sonatype.plugins</groupId>
 						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.6.7</version>
 						<extensions>true</extensions>
+						<version>1.6.7</version>
 						<configuration>
 							<serverId>ossrh</serverId>
 							<nexusUrl>https://oss.sonatype.org/</nexusUrl>

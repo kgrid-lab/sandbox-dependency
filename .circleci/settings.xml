@@ -1,9 +1,22 @@
 <settings>
+    <profiles>
+        <profile>
+            <id>ci</id>
+            <properties>
+                <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
+                <gpg.executable>gpg</gpg.executable>
+            </properties>
+        </profile>
+    </profiles>
     <servers>
         <server>
             <id>ossrh</id>
             <username>${SONATYPE_USER}</username>
             <password>${SONATYPE_PASSWORD}</password>
+        </server>
+        <server>
+            <id>gpg.passphrase</id>
+            <passphrase>${GPG_PASSPHRASE}</passphrase>
         </server>
     </servers>
 </settings>
