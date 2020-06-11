@@ -32,7 +32,6 @@
 	</developers>
 
 	<scm>
-
 		<url>https://github.com/kgrid-lab/sandbox-dependency</url>
 		<connection>scm:git:https://github.com/kgrid-lab/sandbox-dependency.git</connection>
 		<developerConnection>scm:git:https://github.com/kgrid-lab/sandbox-dependency.git</developerConnection>

@@ -3,7 +3,7 @@
         <profile>
             <id>ci</id>
             <properties>
-                <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
+                <gpg.keyname>${GPG_KEYNAME}</gpg.keyname>
                 <gpg.executable>gpg</gpg.executable>
             </properties>
         </profile>
