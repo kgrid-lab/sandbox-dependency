@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  RandomAnimalService
+  org.kgrid.SampleDependency.Service.RandomAnimalService
