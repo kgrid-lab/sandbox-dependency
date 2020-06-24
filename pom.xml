@@ -10,7 +10,7 @@
 
 	<groupId>org.kgrid</groupId>
 	<artifactId>sample-dependency</artifactId>
-	<version>0.2.11</version>
+	<version>0.2.11-SNAPSHOT</version>
 	<name>sample-dependency</name>
 	<description>A sample dependency for the purpose of experimenting</description>
 	<url>https://github.com/kgrid</url>
