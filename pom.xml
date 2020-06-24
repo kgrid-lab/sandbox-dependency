@@ -10,7 +10,7 @@
 
 	<groupId>org.kgrid</groupId>
 	<artifactId>sample-dependency</artifactId>
-	<version>0.2.13-SNAPSHOT</version>
+	<version>0.2.13</version>
 	<name>sample-dependency</name>
 	<description>A sample dependency for the purpose of experimenting</description>
 	<url>https://github.com/kgrid</url>
@@ -35,7 +35,7 @@
 		<url>https://github.com/kgrid-lab/sample-dependency</url>
 		<connection>scm:git:https://github.com/kgrid-lab/sample-dependency.git</connection>
 		<developerConnection>scm:git:https://github.com/kgrid-lab/sample-dependency.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>sample-dependency-0.2.13</tag>
 	</scm>
 
 	<properties>
