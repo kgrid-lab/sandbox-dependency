@@ -1,4 +1,4 @@
-package org.kgrid.sandboxdependency.service;
+package org.kgrid.sampledependency.service;
 
 import org.springframework.stereotype.Service;
 

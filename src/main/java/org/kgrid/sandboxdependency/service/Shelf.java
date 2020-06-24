@@ -1,4 +1,4 @@
-package org.kgrid.sandboxdependency.service;
+package org.kgrid.sampledependency.service;
 
 public class Shelf {
 
